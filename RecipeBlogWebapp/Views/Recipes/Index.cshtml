@@ -1,0 +1,40 @@
+﻿@model IEnumerable<RecipeBlogWebapp.Models.Recipe>
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Homepage";
+}
+
+<p>
+    @{
+        if (HttpContextAccessor.HttpContext.Session.GetString("UserName") != null)
+        {
+            <a asp-action="Create">Create New</a>
+        }
+    }
+</p>
+<table class="table">
+    <h3>All recipes</h3>
+    <thead hidden>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">
+                        <div style="cursor: pointer;">
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

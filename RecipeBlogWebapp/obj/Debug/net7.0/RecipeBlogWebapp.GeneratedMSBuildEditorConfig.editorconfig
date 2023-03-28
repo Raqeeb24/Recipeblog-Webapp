@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RecipeBlogWebapp
+build_property.RootNamespace = RecipeBlogWebapp
+build_property.ProjectDir = C:\Users\raqee\OneDrive\Dokumente\Informatik BBBaden\Lernatelier 3\RecipeBlogWebapp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\raqee\OneDrive\Dokumente\Informatik BBBaden\Lernatelier 3\RecipeBlogWebapp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Recipes/MyRecipes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaXBlc1xNeVJlY2lwZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/raqee/OneDrive/Dokumente/Informatik BBBaden/Lernatelier 3/RecipeBlogWebapp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i7jergts33

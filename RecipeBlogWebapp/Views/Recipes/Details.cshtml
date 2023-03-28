@@ -1,0 +1,62 @@
+﻿@model RecipeBlogWebapp.Models.Recipe
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = @Html.DisplayFor(model => model.Title);
+}
+<dl class="row">
+    <dt class="col-sm-8">
+        <h1 style="position: relative; top: 35%">@Html.DisplayFor(model => model.Title)</h1>
+    </dt>
+    <dd class="col-sm-4">
+        <p style="position: relative; float: right; top: 80%">
+            Made by <strong>@Html.DisplayFor(model => model.Username)</strong>
+        </p>
+    </dd>
+</dl>
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ingredients)
+        </dt>
+        <dd>
+            <ul>
+                @foreach (var ingredient in Model.Ingredients.Split('+'))
+                {
+                    if (!string.IsNullOrWhiteSpace(ingredient))
+                    {
+                        <li>@ingredient.Trim()</li>
+                    }
+                }
+            </ul>
+        </dd>
+
+    </dl>
+</div>
+@{
+    var username = HttpContextAccessor.HttpContext.Session.GetString("UserName");
+    var blogauthor = @Html.DisplayFor(model => model.Username).ToString();
+    Console.WriteLine("Username cookie: " + username);
+    Console.WriteLine("Username html: " + blogauthor);
+    if (username != null)
+    {
+        if (username.Equals(Model.Username))
+        {
+            <div>
+                <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>|
+                <a asp-action="Delete" asp-route-id="@Model?.Id">Delete</a>
+            </div>
+        }
+    }
+
+}
